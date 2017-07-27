@@ -57,7 +57,7 @@ Example:
 
 The preprocessed data can be fed into the `train.py` script:
 
-`python train.py data/processed.h5 model.h5 --epochs 20`
+`python2 train.py data/processed.h5 model.h5 --epochs 20`
 
 If a model file already exists it will be opened and resumed. If it doesn't exist, it will be created.
 
