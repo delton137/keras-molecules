@@ -3,7 +3,6 @@ import pandas
 import h5py
 import numpy as np
 from molecules.utils import one_hot_array, one_hot_index
-from functools import reduce
 
 from sklearn.model_selection import train_test_split
 
